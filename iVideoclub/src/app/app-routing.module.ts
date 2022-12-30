@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'videoclub',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
   {

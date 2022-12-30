@@ -8,36 +8,30 @@
 
 <ion-content [fullscreen]="true" class="ion-padding">
 
-    <h1>Inicio</h1>   
+    <ion-card href="#">
+      <ion-card-header>
+        <ion-card-subtitle>Bienvenido a iVideoclub</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        iVideoclub es una aplicación desarrollada con Ionic
+      </ion-card-content>
+      <ion-item>
+        <ion-icon name="videocam" slot="start" size="small"></ion-icon>
+        <ion-label><small>Acceso a videoclub</small></ion-label>
+      </ion-item>
+    </ion-card>
 
-    <ion-button href="#" fill="clear" size="small">
-      <ion-icon slot="start" name="videocam"></ion-icon>
-      &nbsp;Acceso a videoclub
-    </ion-button>
-
-    <ion-button href="#" fill="clear" size="small">
-      <ion-icon slot="start" name="person"></ion-icon>
-      &nbsp;Consultar información
-    </ion-button>
-
-    <ion-button href="#" fill="clear" size="small">
-      <ion-icon slot="start" name="book"></ion-icon>
-      &nbsp;Currículum vitae
-    </ion-button>
-
-    <ion-button href="#" fill="clear" size="small">
-      <ion-icon slot="start" name="mail"></ion-icon>
-      &nbsp;Correo: email@email.com
-    </ion-button>
-
-    <ion-button href="#" fill="clear" size="small">
-      <ion-icon slot="start" name="logo-twitter"></ion-icon>
-      &nbsp;Twitter: @twitter
-    </ion-button>
-
-    <ion-button href="#" fill="clear" size="small">
-      <ion-icon slot="start" name="call"></ion-icon>
-      &nbsp;Teléfono: 999888777
-    </ion-button>
+    <ion-card href="#">
+      <ion-card-header>
+        <ion-card-subtitle>Información sobre el autor</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Aplicación desarrollada por David López
+      </ion-card-content>
+      <ion-item>
+        <ion-icon name="person" slot="start" size="small"></ion-icon>
+        <ion-label><small>Consultar información</small></ion-label>
+      </ion-item>
+    </ion-card>
 
 </ion-content>
